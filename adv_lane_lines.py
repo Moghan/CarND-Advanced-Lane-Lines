@@ -304,7 +304,6 @@ def image_pipeline(image):
     
     image = cv2.undistort(image, mtx_Global, dist_Global, None, mtx_Global)
 
-
     gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
     hls = cv2.cvtColor(image, cv2.COLOR_RGB2HLS)
     s_channel = hls[:,:,2]
@@ -377,9 +376,7 @@ mtx_Global, dist_Global = get_camera_undistort_vals()
 test_images = glob.glob('video_test_frames/*.jpg')
 
 
-
-
-challenge_output = 'advanced_lane_finding_video.mp4'
+challenge_output = 'output_images/advanced_lane_finding_video.mp4'
 clip2 = VideoFileClip('project_video.mp4')
 challenge_clip = clip2.fl_image(image_pipeline)
 challenge_clip.write_videofile(challenge_output, audio=False)
