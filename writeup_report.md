@@ -17,7 +17,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[undist_chessboard]: examples/undist_chessboard.jpg "Undistorted chessboard"
+[undist_chessboard]: examples/undistorted_chessboard.jpg "Undistorted chessboard"
 [chessboard]: camera_cal/calibration2.jpg "chessboard"
 [test_frame]: examples/test_frame.jpg "unprocessed test frame"
 [image_pipeline_example]: examples/image_pipeline_example.jpg "image pipeline example"
