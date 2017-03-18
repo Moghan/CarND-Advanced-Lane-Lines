@@ -23,7 +23,7 @@ The goals / steps of this project are the following:
 [image_pipeline_example]: examples/image_pipeline_example.jpg "image pipeline example"
 [transform_example]: examples/transform_example.jpg "image transform example"
 [line_example]: examples/line_example.jpg "line example"
-[final_image]: examples/final_image.jpg "final result"
+[final_image]: examples/final_test_image.jpg "final result"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 ###  Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
